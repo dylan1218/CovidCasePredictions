@@ -5,7 +5,8 @@ Predicting COVID-19 cases during summer surge.
 Methods tested/utilized:
 * (1) ARIMA model w/ hyperparamater permutation
 * (2) Curve fitting against a log function
-* (3) ARIMA w/ exogenous regressor on stringency index data
+* (3) ARIMA w/ exogenous regressor on lags of stringency index data
+* (4) VAR w/ stringency index
 
 
 Sample:
